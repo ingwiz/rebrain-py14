@@ -17,3 +17,5 @@ How to install and run:
   - http://127.0.0.1:8000/api/servers/add
   - http://127.0.0.1:8000/api/servers/
   - http://127.0.0.1:8000/api/servers/status
+
+To exit from `venv` mode enter `deactivate` command
