@@ -9,10 +9,11 @@ How to install and run:
 4. source .venv/bin/activate
 5. pip3 install -r requirements.txt
 6. cd config
-7. python3 manage.py migrate --run-syncdb
-8. python3 manage.py createsuperuser (Optional)
-9. python3 manage.py runserver
-10. enter the following addresses in the browser's address bar
+7. python3 make_project_secret_key.py > config/project_secret_key.py
+8. python3 manage.py migrate --run-syncdb
+9. python3 manage.py createsuperuser (Optional)
+10. python3 manage.py runserver
+11. enter the following addresses in the browser's address bar
   - http://127.0.0.1:8000/api/servers/add
   - http://127.0.0.1:8000/api/servers/
   - http://127.0.0.1:8000/api/servers/status

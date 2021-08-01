@@ -1,0 +1,6 @@
+.*
+__pycache__/
+db.sqlite3
+myapp/migrations/
+project_secret_key.py
+
